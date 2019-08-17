@@ -7,6 +7,7 @@
   "license": "ISC",
   "homepage": "http://tuhnik.github.io/just-some-perlin-noise",
   "dependencies": {
+    "gh-pages": "^2.1.1",
     "p5": "^0.9.0",
     "webpack": "^4.39.1"
   },
