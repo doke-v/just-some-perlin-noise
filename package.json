@@ -12,8 +12,8 @@
     "webpack": "^4.39.1"
   },
   "scripts": {
-    "build": "rm -rf dist & webpack --watch",
-    "deploy": "gh-pages -d build",
+    "build": "rm -rf dist & webpack",
+    "deploy": "gh-pages -d dist",
     "start": "webpack-dev-server --open"
   },
   "devDependencies": {
